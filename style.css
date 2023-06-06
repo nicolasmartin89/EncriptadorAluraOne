@@ -1,0 +1,134 @@
+*{
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+.header-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-style:initial;
+    color:rgb(0, 0, 0);
+}
+
+body{
+    background: linear-gradient(#2c3e50, #bdc3c7);
+
+    font-family: 'Roboto', sans-serif;}
+
+main{
+    display: flex;
+    padding: 5% 2rem;
+    gap:3rem;
+    justify-content: center;
+}
+
+.main{
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 35vw;
+    width: 100%;
+
+}
+
+.text-area{
+    border:none;
+    color:#0a3871;
+    text-transform: lowercase;
+    background: whitesmoke ;
+    width: 100%;
+    resize: none;
+    border-radius: 24px;
+    padding:1rem;
+    font-size: 1.2rem;
+    height: 300px;
+}
+
+
+.informacion h6{
+    font-size: 10px;
+    color:black;
+    
+}
+
+
+.mensaje-box{
+    background:whitesmoke; 
+    background-repeat:no-repeat;
+    border:none;
+    border-radius: 24px;
+    Color:#0a3871;
+    padding: 20px;
+    max-width: 25vw;
+    width: 100%;
+    height: 396px;    
+}
+
+.mensaje-encriptado{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mensaje{
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: none;
+}
+
+.mensaje:focus{
+    outline:none;}
+
+.mensaje-no-encontrado{
+    color:black;
+    font-size: 20px;
+    text-decoration: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    gap:1.8rem;
+}
+
+.mensaje-no-encontrado img{
+    
+    max-width: 65%;
+}
+
+.no-mostrar{
+    display: none;
+
+}
+.botones{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+
+.btn{
+    background-color: grey;
+    border:1px solid #ffffff;
+    border-radius:24px;
+    color:white;
+    cursor:pointer;
+    width: 50%;
+    font-weight: bolder;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    text-decoration: solid;
+    margin-bottom: 20px;
+}
